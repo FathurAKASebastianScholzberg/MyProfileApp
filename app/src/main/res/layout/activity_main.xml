@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f5fcf3"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="429dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="334dp"
+            android:background="@drawable/gradientbackground"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/pp"
+                app:civ_border_width="5dp"
+                app:civ_border_color="#FFFFFF"/>/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Fathurrohman"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="280dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_marginTop="-50px">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kelas"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="XII"
+                        android:textColor="#FF6200EE"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jurusan"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text=" RPL-A"
+                        android:textColor="#FF6200EE"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Absen"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="10"
+                        android:textColor="#FF6200EE"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+     <LinearLayout
+         android:layout_width="360dp"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:paddingTop="40dp"
+         android:layout_gravity="center">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:paddingLeft="30dp"
+             android:orientation="horizontal">
+
+
+             <ImageView
+                 android:layout_width="36dp"
+                 android:layout_height="36dp"
+                 android:src="@drawable/ic_school"/>
+
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="SMK Negeri 2 Surakarta"
+                 android:textStyle="bold"
+                 android:layout_gravity="center_vertical"
+                 android:paddingLeft="20dp"
+                 android:textColor="#000000"/>
+
+         </LinearLayout>
+
+         <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:paddingLeft="30dp"
+                 android:layout_marginTop="20dp">
+
+
+             <ImageView
+                 android:layout_width="36dp"
+                 android:layout_height="36dp"
+                 android:src="@drawable/ic_location"/>
+
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Surakarta, Jawa Tengah"
+                 android:textStyle="bold"
+                 android:layout_gravity="center_vertical"
+                 android:paddingLeft="20dp"
+                 android:textColor="#000000"/>
+         </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:paddingLeft="30dp"
+             android:layout_marginTop="20dp">
+
+
+             <ImageView
+                 android:layout_width="36dp"
+                 android:layout_height="36dp"
+                 android:src="@drawable/ic_email"/>
+
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="fathurrohmansolo@gmail.com"
+                 android:textStyle="bold"
+                 android:layout_gravity="center_vertical"
+                 android:paddingLeft="20dp"
+                 android:textColor="#000000"/>
+
+         </LinearLayout>
+     </LinearLayout>
+</LinearLayout>
